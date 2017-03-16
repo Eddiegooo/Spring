@@ -109,18 +109,29 @@ Spring is released under the MIT license. See LICENSE for details.
 
 
 # 注意事项以及使用的参数说明
-要想有动画效果，下面四个参数必须实现其中之一：（动画起始位置的坐标）
-`scaleX,//从中间散开的效果
-scaleY, //从中间散开的效果
-x,  //从一边开始
-y` 
 
-####其他的参数都有默认值，可以不实现；包括`animation`和`curve`类型都可以不实现
-`force  //弹力大小
-duration //动画持续时间
-delay    //动画延时多久执行
-damping     不知道什么用的
-velocity
-repeatCount
-rotate`
+### 要想有动画效果，下面四个参数必须实现其中之一：（动画起始位置的坐标）
+
+`scaleX,//从中间散开的效果`
+
+`scaleY, //从中间散开的效果`
+
+`x,  //从一边开始`
+
+`y`
+
+### 其他的参数都有默认值，可以不实现；包括`animation`和`curve`类型都可以不实现
+
+`force  //弹力大小`
+
+`duration //动画持续时间`
+
+`delay    //动画延时多久执行`
+
+`damping     不知道什么用的`
+
+`velocity`
+`repeatCount`
+`rotate`
+
 这些参数就是要自定义你的动画效果了。
